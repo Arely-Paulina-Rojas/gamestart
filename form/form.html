@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>GameStart: dando tu opinión...</title>
+	<link type="text/css" rel="stylesheet"  href="../css/styledform.css"/>
+</head>
+<body>
+	<h1>Dando comentarios sobre los juegos reseñados</h1>
+	<h2>Llena el siguiente formulario y da click en "Enviar"</h2>
+	<form action="http://gamestart.com/processorder.php" method="post">
+	<div class="tableRow">	
+	<p>
+	 Tu nota:</p>
+	 <p>
+	 <input type="radio" name="notatype" value="malo">Malo<br>
+	 <input type="radio" name="notatype" value="regular"checked>Regular<br>
+	 <input type="radio" name="notatype" value="bueno">Bueno
+	 </p>
+	 </div>
+	 <div class="tableRow">
+	 <p>Horas jugadas</p>
+	 <p><input type="number" name="horas" min="1" max="500"></p>
+	 </div>
+	 <div class="tableRow">
+	 <p class="heading">Datos:</p>
+	 <p></p>
+	 </div>
+	 <div class="tableRow">
+	 <p>Nombre:</p>
+	 <p><input type="text" name="name" value="" placeholder="Name" required></p></div>
+	 <div class="tableRow">
+	 <p>NickName:</p>
+	 <p><input type="text" name="nick" value="" placeholder="Nick" required></p></div>
+	 <div class="tableRow">
+	 <p>Correo electrónico:</p>
+	 <p><input type="text" name="email" value="" placeholder="direccion@gmail.com" required></p></div>
+	 <div class="tableRow">
+	 <p>Ciudad:</p>
+	 <p><input type="text" name="city" value="" placeholder="City" required></p></div>
+	 <div class="tableRow">
+	 <p>Comentarios:</p>
+		<p><textarea name="comments"></textarea></p>
+	</div>
+	<div class="tableRow">
+	<p></p>
+	<p><input type="submit"value="Enviar"/></p>
+	</div>
+</form>
+</body>
+</html>

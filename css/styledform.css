@@ -1,0 +1,31 @@
+body{
+	background: #5FF5DC
+	url(../imagenes/aqua.jpg) top left;
+	margin: 20px;
+}
+h1,h2{
+	color: #954b4b;
+}
+form{
+	display: table;
+	padding: 10px;
+	border:thin dotted #36B49F;
+}
+form textarea{
+	width: 500px;
+	height: 200px;
+}
+div.tableRow{
+	display: table-row;
+}
+div.tableRow p{
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+div.tableRow p:first-child{
+	text-align: left;
+}
+p.heading{
+	font-weight: bold;
+}
